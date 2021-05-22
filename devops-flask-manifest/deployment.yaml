@@ -21,7 +21,7 @@ spec:
         app: devops-flask
     spec:
       containers:
-        - image: beomjae/devops-cicd:v1.0.11
+        - image: beomjae/devops-cicd:v1.0.12
           imagePullPolicy: Always
           name: devops-flask
           ports:
